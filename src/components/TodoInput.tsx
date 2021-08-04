@@ -27,6 +27,7 @@ export function TodoInput({ addTask }: TodoInputProps) {
         value={task}
         onChangeText={setTask}
         onSubmitEditing={handleAddNewTask}
+        autoCorrect={false}
       />
       <TouchableOpacity
         testID="add-new-task-button"
